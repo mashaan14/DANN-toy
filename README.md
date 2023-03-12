@@ -28,7 +28,7 @@ This DANN implementation uses a 2D toy dataset with built-in plots that help to 
 ## 2D dataset
 The code starts by retrieving `source dataset` from data folder. Then it performs a rotation (domain shift) on a copy of the dataset. The rotated dataset is the `target dataset`. Here is a visualization of source and target datasets:
 <p align="center">
-  <img width="1200" src=dataset.PNG>
+  <img width="1200" src=dataset.png>
 </p>
 
 ## Source domain classifier
@@ -39,7 +39,7 @@ Avg Loss = 0.20282, Avg Accuracy = 88.500000%, ARI = 0.59085
 ```
 
 <p align="center">
-  <img width="1200" src="Testing source data using source feature extractor.PNG">
+  <img width="1200" src="Testing source data using source feature extractor.png">
 </p>
 
 Now, we used the same `feature_extractor` to classify `target` samples. Note that we still did not perform domain adaptation:
@@ -49,7 +49,7 @@ Avg Loss = 0.61630, Avg Accuracy = 81.000000%, ARI = 0.38154
 ```
 
 <p align="center">
-  <img width="1200" src="Testing target data using source feature extractor.PNG">
+  <img width="1200" src="Testing target data using source feature extractor.png">
 </p>
 
 ## Domain adaptation
@@ -60,7 +60,7 @@ The domain adaptation takes place in `core.train_tgt` function. The goal is to t
 Avg Loss = 0.26856, Avg Accuracy = 88.000000%, ARI = 0.57547
 ```
 <p align="center">
-  <img width="1200" src="Testing target data using target feature extractor.PNG">
+  <img width="1200" src="Testing target data using target feature extractor.png">
 </p>
 
 
