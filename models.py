@@ -14,7 +14,7 @@ from utils import GradientReversal
 
 class Encoder(nn.Module):
     """
-    encoder for ADDA.
+    encoder for DANN.
     """
     def __init__(self):
         super(Encoder, self).__init__()
@@ -44,7 +44,7 @@ class Encoder(nn.Module):
 
 class Classifier(nn.Module):
     """
-    classifier for ADDA.
+    classifier for DANN.
     """
     def __init__(self):
         super(Classifier, self).__init__()
