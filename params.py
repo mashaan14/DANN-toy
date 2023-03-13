@@ -1,4 +1,4 @@
-"""Params for ADDA."""
+"""Params for DANN"""
 
 # params for training network
 num_gpu = 1
