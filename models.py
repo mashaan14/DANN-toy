@@ -1,11 +1,12 @@
 """
-This file contains three models needed to build ADDA:
-    - LeNetEncoder: to extract features from images.
-    - LeNetClassifier: to perform image classification.
-    - Discriminator model: to perform adversarial adaptation that if sees encoded source and target examples cannot reliably predict their domain label.
+This file contains three models needed to build DANN:
+    - Encoder: to extract features.
+    - Classifier: to perform classification.
+    - Discriminator model: to perform domain adaptation.
 
-Tzeng, E., Hoffman, J., Saenko, K., & Darrell, T. (2017). Adversarial discriminative domain adaptation.
-In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 7167-7176).
+Domain-Adversarial Neural Networks (DANN):
+    Unsupervised Domain Adaptation by Backpropagation, Ganin & Lemptsky (2014)
+    Domain-adversarial training of neural networks, Ganin et al. (2016)
 """
 
 from torch import nn
