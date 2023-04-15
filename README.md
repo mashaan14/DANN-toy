@@ -1,7 +1,12 @@
 # DANN PyTorch implementation with 2D toy example
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+[![PyTorch](https://img.shields.io/badge/pytorch-1.13-brightgreen.svg)](https://pytorch.org/get-started/previous-versions/)
+[![torchvision](https://img.shields.io/badge/torchvision-0.14-brightgreen.svg)](https://pypi.org/project/torchvision/)
+
 Domain-Adversarial Neural Network (DANN) is one of the well-known benchmarks for domain adaptation tasks. DANN was introduced by these papers:
 
-```
+```bibtex
 @misc{https://doi.org/10.48550/arxiv.1409.7495,
   url = {https://arxiv.org/abs/1409.7495},
   author = {Ganin, Yaroslav and Lempitsky, Victor},
@@ -12,7 +17,7 @@ Domain-Adversarial Neural Network (DANN) is one of the well-known benchmarks for
 }
 ```
 
-```
+```bibtex
 @article{https://doi.org/10.48550/arxiv.1505.07818,
   url = {https://arxiv.org/abs/1505.07818},
   author = {Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, François and Marchand, Mario and Lempitsky, Victor},  
