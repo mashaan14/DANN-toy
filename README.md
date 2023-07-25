@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/pytorch-1.13-brightgreen.svg)](https://pytorch.org/get-started/previous-versions/)
 [![torchvision](https://img.shields.io/badge/torchvision-0.14-brightgreen.svg)](https://pypi.org/project/torchvision/)
 
-Domain-Adversarial Neural Network (DANN) is one of the well-known benchmarks for domain adaptation tasks. DANN was introduced by these papers:
+Domain-Adversarial Neural Network (DANN) is one of the well-known benchmarks for domain adaptation tasks. DANN was presented in these papers:
 
 ```bibtex
 @misc{https://doi.org/10.48550/arxiv.1409.7495,
