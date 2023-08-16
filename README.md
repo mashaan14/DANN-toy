@@ -58,7 +58,7 @@ Avg Loss = 0.61630, Avg Accuracy = 81.000000%, ARI = 0.38154
 </p>
 
 ## Domain adaptation
-The domain adaptation takes place in `core.train_tgt` function. The goal is to train the `feature_extractor` to learn features for both `source` and `target` smaples. The `feature_extractor` attempts to minimize a loss computed only on `source` samples, since `target` samples do not have labels. The `feature_extractor` is optimized simultaneously with the `discriminator`, which tries to "discriminate" if the sample is coming from `source` or `target` domains. Eventually, the `feature_extractor` will learn features that make the `discriminator` unable to tell which domain the sample is coming from. Now, we can use the `feature_extractor` to classify `target` samples:
+Most of domain adaptation logic is performed in `core.train_tgt` function. The goal is to train the `feature_extractor` to learn features for both `source` and `target` smaples. The `feature_extractor` attempts to minimize a loss computed only on `source` samples, since `target` samples do not have labels. The `feature_extractor` is optimized simultaneously with the `discriminator`, which tries to "discriminate" if the sample is coming from `source` or `target` domains. Eventually, the `feature_extractor` will learn features that make the `discriminator` unable to tell which domain the sample is coming from. Now, we can use the `feature_extractor` to classify `target` samples:
 
 
 ```
